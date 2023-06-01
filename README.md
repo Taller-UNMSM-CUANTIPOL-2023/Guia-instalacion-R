@@ -1,2 +1,3 @@
-# Gu-a-de-instalaci-n-R
+# Guia de instalacion R y RStudio
+
 Instalemos R y Rstudio desde Posit...
