@@ -1,0 +1,131 @@
+---
+title: "**<b style = 'color : #E18B2A;'>Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM</b>**"
+author:  Joel Belsasar
+subtitle: Guía de instalación de R y RStudio
+date: 4/06/2023
+format:
+  revealjs:
+    standalone: true
+    theme: night
+    progress: true
+    footer: <[Cuantipol](https://luccemhu.github.io/)>
+incremental: false
+highlight-style: a11y
+---
+
+## <b style = 'color : #E18B2A;'>Instalando desde posit</b>
+
+-   En el siguiente enlace podrán encontrar los instaladores de R y R-studio para Windows, Mac, entre otros: [**Link: R y RStudio Desktop**](https://posit.co/download/rstudio-desktop/#download).
+
+-   Es necesario que se descarguen ambos para seguir el curso.
+
+-   Todo el proceso es muy intuitivo y simple, pero también lo repasaremos en clase.
+
+## <b style = 'color : #E18B2A;'>Paso 1: instalar R</b>
+
+-   El enlace anterior les llevará a esta página. Aquí elijan la opción **"`DOWNLOAD AND INSTALL R`"**...
+
+![](paso1.jpg)
+
+## 
+
+-   Los va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
+
+![](paso1-b.jpg)
+
+-   Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archive Network](https://cran.r-project.org/)
+
+## 
+
+-   Elijan el subdirectorio **`base`** y les enviará, ahora sí, a la página para instalar R
+
+![](paso1-c.jpg)
+
+
+##
+
+-   Entonces, por ejemplo, para windows, hagan clic aquí:
+
+![](paso1-d.jpg)
+
+-   Una vez descargado, siguen los pasos del instalador por default en sus computadoras.
+
+## <b style = 'color : #E18B2A;'>Paso 2: instalar R-studio</b>
+
+-   En este caso, haciendo clic en la opción 2, directamente, ya se descarga el instalador
+
+::: {.column width="60%"}
+![](paso2.jpg)
+:::
+
+-   Una vez descargado siguen los pasos del instalador y listo
+
+## <b style = 'color : #E18B2A;'>Paso 3: Corroborar la instalación</b>
+
+-   Busquen los íconos de R y de RStudio en su escritorio. Si no están allí, escriban el nombre en el buscador de sus sistemas y creen un acceso directo de cada uno para sus escritorios. 
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+![](Rlogo.jpg)
+
+:::
+
+::: {.column width="75%"}
+
+![](R2logo.jpg)
+:::
+
+::::
+
+-   Haremos clic en el segundo logo (RStudio), luego debería aparecerles una pantalla como la que viene...
+
+##
+
+- RStudio:
+
+::: {.column width="85%"}
+
+![](paso3.jpg)
+
+:::
+
+## <b style = 'color : #E18B2A;'>Ok, pero ¿por qué hemos descargado ambos programas?</b>
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+![](R-basic.jpg)
+:::
+
+::: {.column width="70%"}
+
+![](Rstudio.jpg)
+:::
+
+::::
+
+-   Rstudio es un **[IDE](https://posit.co/products/open-source/rstudio/)**: un interfaz amigable y poderoso para trabajar con R.
+
+## <b style = 'color : #E18B2A;'>Paso 4: Practiquemos</b>
+
+-   Una vez instalado el programa, ya podemos instalar paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en "`Console`" (panel inferior izquierdo) y presionen la tecla **"`Enter`"**:
+
+```` markdown
+install.packages("tidyverse”)
+````
+
+![](paso4.jpg)
+
+## 
+-   Verán que, automáticamente, empiezan a correr códigos de instalación. Puede tardar unos segundos y, al final, les mostrará que se ha instalado exitosamente.
+
+-    Para comprobar que esto sucedió debemos cargar el "paquete tidyverse", para ello, copien  en **"`Console`"** y presionen **"`Enter`"**:
+
+```` markdown
+library(tidyverse)
+````
+
+
