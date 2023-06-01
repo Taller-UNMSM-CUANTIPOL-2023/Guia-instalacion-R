@@ -29,7 +29,7 @@ highlight-style: a11y
 
 ## 
 
--   Los va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
+-   Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
 
 ![](paso1-b.jpg)
 
@@ -50,9 +50,9 @@ highlight-style: a11y
 
 -   Una vez descargado, siguen los pasos del instalador por default en sus computadoras.
 
-## <b style = 'color : #E18B2A;'>Paso 2: instalar R-studio</b>
+## <b style = 'color : #E18B2A;'>Paso 2: instalar RStudio</b>
 
--   En este caso, haciendo clic en la opción 2, directamente, ya se descarga el instalador
+-   En este caso, haciendo clic en la opción 2, ya se descarga, directamente,  el instalador
 
 ::: {.column width="60%"}
 ![](paso2.jpg)
@@ -91,7 +91,7 @@ highlight-style: a11y
 
 :::
 
-## <b style = 'color : #E18B2A;'>Ok, pero ¿por qué hemos descargado ambos programas?</b>
+## <b style = 'color : #E18B2A;'>Ok, pero ¿por qué hemos descargado ambos entornos?</b>
 
 :::: {.columns}
 
@@ -107,11 +107,13 @@ highlight-style: a11y
 
 ::::
 
+- R es un lenguaje y un entorno de programación para el análisis estadístico. 
+
 -   Rstudio es un **[IDE](https://posit.co/products/open-source/rstudio/)**: un interfaz amigable y poderoso para trabajar con R.
 
 ## <b style = 'color : #E18B2A;'>Paso 4: Practiquemos</b>
 
--   Una vez instalado el programa, ya podemos instalar paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en "`Console`" (panel inferior izquierdo) y presionen la tecla **"`Enter`"**:
+-   Una vez instalado ambos entornos, ya podemos proseguir con los paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en "`Console`" (panel inferior izquierdo) y presionen la tecla **"`Enter`"**:
 
 ```` markdown
 install.packages("tidyverse”)
@@ -120,9 +122,9 @@ install.packages("tidyverse”)
 ![](paso4.jpg)
 
 ## 
--   Verán que, automáticamente, empiezan a correr códigos de instalación. Puede tardar unos segundos y, al final, les mostrará que se ha instalado exitosamente.
+-   Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.
 
--    Para comprobar que esto sucedió debemos cargar el "paquete tidyverse", para ello, copien  en **"`Console`"** y presionen **"`Enter`"**:
+-    Para comprobar que esto sucedió, debemos cargar el paquete "tidyverse". Para ello, copien  en **"`Console`"** y presionen **"`Enter`"** el siguiente código:
 
 ```` markdown
 library(tidyverse)
