@@ -25,13 +25,13 @@ highlight-style: a11y
 
 -   El enlace anterior les llevará a esta página. Aquí elijan la opción **"`DOWNLOAD AND INSTALL R`"**...
 
-![](paso1.jpg)
+![](./images/paso1.jpg)
 
 ## 
 
 -   Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
 
-![](paso1-b.jpg)
+![](./images/paso1-b.jpg)
 
 -   Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archive Network](https://cran.r-project.org/)
 
@@ -39,14 +39,14 @@ highlight-style: a11y
 
 -   Elijan el subdirectorio **`base`** y les enviará, ahora sí, a la página para instalar R
 
-![](paso1-c.jpg)
+![](./images/paso1-c.jpg)
 
 
 ##
 
 -   Entonces, por ejemplo, para windows, hagan clic aquí:
 
-![](paso1-d.jpg)
+![](./images/paso1-d.jpg)
 
 -   Una vez descargado, siguen los pasos del instalador por default en sus computadoras.
 
@@ -55,7 +55,7 @@ highlight-style: a11y
 -   En este caso, haciendo clic en la opción 2, ya se descarga, directamente,  el instalador
 
 ::: {.column width="60%"}
-![](paso2.jpg)
+![](./images/paso2.jpg)
 :::
 
 -   Una vez descargado siguen los pasos del instalador y listo
@@ -68,13 +68,13 @@ highlight-style: a11y
 
 ::: {.column width="25%"}
 
-![](Rlogo.jpg)
+![](./images/Rlogo.jpg)
 
 :::
 
 ::: {.column width="75%"}
 
-![](R2logo.jpg)
+![](./images/R2logo.jpg)
 :::
 
 ::::
@@ -87,7 +87,7 @@ highlight-style: a11y
 
 ::: {.column width="85%"}
 
-![](paso3.jpg)
+![](./images/paso3.jpg)
 
 :::
 
@@ -97,12 +97,12 @@ highlight-style: a11y
 
 ::: {.column width="30%"}
 
-![](R-basic.jpg)
+![](./images/R-basic.jpg)
 :::
 
 ::: {.column width="70%"}
 
-![](Rstudio.jpg)
+![](./images/Rstudio.jpg)
 :::
 
 ::::
@@ -119,7 +119,7 @@ highlight-style: a11y
 install.packages("tidyverse”)
 ````
 
-![](paso4.jpg)
+![](./images/paso4.jpg)
 
 ## 
 -   Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.
