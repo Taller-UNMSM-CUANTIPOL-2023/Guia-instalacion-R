@@ -8,7 +8,7 @@ format:
     standalone: true
     theme: night
     progress: true
-    footer: <[Cuantipol](https://taller-unmsm-cuantipol-2023.github.io/Guia-instalacion-R/)>
+    footer: <[POLITAI](https://taller-politai-2023-2.github.io/Guia-instalacion-R/)>
 incremental: false
 highlight-style: a11y
 ---
