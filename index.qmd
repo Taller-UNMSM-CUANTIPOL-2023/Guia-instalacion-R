@@ -2,7 +2,7 @@
 title: "**Taller de Estadística - POLITAI**"
 author:  Joel Ccallocunto
 subtitle: Guía de instalación de R y RStudio
-date: 21/11/2023
+date: 11/21/2023
 format:
   revealjs:
     standalone: true
