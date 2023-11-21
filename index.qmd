@@ -1,8 +1,8 @@
 ---
-title: "**<b style = 'color : #E18B2A;'>Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM</b>**"
-author:  Joel Belsasar
+title: "**Taller de Estadística - POLITAI**"
+author:  Joel Ccallocunto
 subtitle: Guía de instalación de R y RStudio
-date: 4/06/2023
+date: 21/11/2023
 format:
   revealjs:
     standalone: true
@@ -129,5 +129,15 @@ install.packages("tidyverse”)
 ```` markdown
 library(tidyverse)
 ````
+
+##
+
+```{r,echo=FALSE, out.width="65%",fig.align="center"}
+knitr::include_graphics("./images/politai.jpg") 
+```
+
+
+
+
 
 

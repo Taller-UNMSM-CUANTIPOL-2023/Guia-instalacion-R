@@ -2,35 +2,35 @@
   {
     "objectID": "index.html#instalando-desde-posit",
     "href": "index.html#instalando-desde-posit",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "Instalando desde posit",
     "text": "Instalando desde posit\n\nEn el siguiente enlace podrán encontrar los instaladores de R y R-studio para Windows, Mac, entre otros: Link: R y RStudio Desktop.\nEs necesario que se descarguen ambos para seguir el curso.\nTodo el proceso es muy intuitivo y simple, pero también lo repasaremos en clase."
   },
   {
     "objectID": "index.html#paso-1-instalar-r",
     "href": "index.html#paso-1-instalar-r",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "Paso 1: instalar R",
     "text": "Paso 1: instalar R\n\nEl enlace anterior les llevará a esta página. Aquí elijan la opción “DOWNLOAD AND INSTALL R”…"
   },
   {
     "objectID": "index.html#section",
     "href": "index.html#section",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "",
     "text": "Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:\n\n\n\nEnlace directo para instalar R y otras herramientas: The Comprehensive R Archive Network"
   },
   {
     "objectID": "index.html#section-1",
     "href": "index.html#section-1",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "",
     "text": "Elijan el subdirectorio base y les enviará, ahora sí, a la página para instalar R"
   },
   {
     "objectID": "index.html#section-2",
     "href": "index.html#section-2",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "",
     "text": "Entonces, por ejemplo, para windows, hagan clic aquí:\n\n\n\nUna vez descargado, siguen los pasos del instalador por default en sus computadoras."
   },
@@ -44,14 +44,14 @@
   {
     "objectID": "index.html#paso-3-corroborar-la-instalación",
     "href": "index.html#paso-3-corroborar-la-instalación",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "Paso 3: Corroborar la instalación",
     "text": "Paso 3: Corroborar la instalación\n\nBusquen los íconos de R y de RStudio en su escritorio. Si no están allí, escriban el nombre en el buscador de sus sistemas y creen un acceso directo de cada uno para sus escritorios.\n\n\n\n\n\n\n\n\n\nHaremos clic en el segundo logo (RStudio), luego debería aparecerles una pantalla como la que viene…"
   },
   {
     "objectID": "index.html#section-3",
     "href": "index.html#section-3",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "",
     "text": "RStudio:"
   },
@@ -65,29 +65,43 @@
   {
     "objectID": "index.html#paso-4-practiquemos",
     "href": "index.html#paso-4-practiquemos",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "Paso 4: Practiquemos",
     "text": "Paso 4: Practiquemos\n\nUna vez instalado ambos entornos, ya podemos proseguir con los paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en “Console” (panel inferior izquierdo) y presionen la tecla “Enter”:\n\ninstall.packages(\"tidyverse”)"
   },
   {
     "objectID": "index.html#section-4",
     "href": "index.html#section-4",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "",
-    "text": "Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.\nPara comprobar que esto sucedió, debemos cargar el paquete “tidyverse”. Para ello, copien en “Console” y presionen “Enter” el siguiente código:\n\nlibrary(tidyverse)\n\n\n&lt;Cuantipol&gt;"
+    "text": "Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.\nPara comprobar que esto sucedió, debemos cargar el paquete “tidyverse”. Para ello, copien en “Console” y presionen “Enter” el siguiente código:\n\nlibrary(tidyverse)"
   },
   {
     "objectID": "index.html#paso-2-instalar-rstudio",
     "href": "index.html#paso-2-instalar-rstudio",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "Paso 2: instalar RStudio",
     "text": "Paso 2: instalar RStudio\n\nEn este caso, haciendo clic en la opción 2, ya se descarga, directamente, el instalador\n\n\n\n\n\nUna vez descargado siguen los pasos del instalador y listo"
   },
   {
     "objectID": "index.html#ok-pero-por-qué-hemos-descargado-ambos-entornos",
     "href": "index.html#ok-pero-por-qué-hemos-descargado-ambos-entornos",
-    "title": "Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM",
+    "title": "Taller de Estadística - POLITAI",
     "section": "Ok, pero ¿por qué hemos descargado ambos entornos?",
     "text": "Ok, pero ¿por qué hemos descargado ambos entornos?\n\n\n\n\n\n\n\n\nR es un lenguaje y un entorno de programación para el análisis estadístico.\nRstudio es un IDE: un interfaz amigable y poderoso para trabajar con R."
+  },
+  {
+    "objectID": "index.html#politai",
+    "href": "index.html#politai",
+    "title": "Taller de Estadística - POLITAI",
+    "section": "POLITAI",
+    "text": "POLITAI\n\n\n\n&lt;Cuantipol&gt;"
+  },
+  {
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
+    "title": "Taller de Estadística - POLITAI",
+    "section": "",
+    "text": "&lt;Cuantipol&gt;"
   }
 ]
