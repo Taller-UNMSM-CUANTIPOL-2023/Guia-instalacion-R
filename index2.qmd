@@ -1,0 +1,169 @@
+---
+format:
+  revealjs: 
+    theme: [default, custom.css, styles.scss, night]
+    filters:
+      - lightbox
+    transition: fade
+    background-transition: fade
+    highlight-style: pygments
+    footer: "[POLITAI](https://taller-politai-2023-2.github.io/Guia-instalacion-R/)"
+
+---
+
+##  {.title}
+
+::: r-fit-text
+Descargando R y Rstudio desde [Posit]{.flow}
+:::
+
+::: {style="font-size: 80px"}
+Joel Belsasar Ccallocunto
+:::
+
+{{< fa brands github size=1.4xl >}} [luccemhu](https://github.com/luccemhu) | <i class="fas fa-envelope"></i> a20196510@pucp.edu.pe
+
+[POLITAI](https://revistas.pucp.edu.pe/index.php/politai)
+
+[Asociación Civil](https://www.instagram.com/politai_asoc_civil/)
+
+## 
+
+![](images/politai.png){fig-align="center"}
+
+::: notes
+A
+:::
+
+## Instrucciones {.small}
+
+-   En el siguiente enlace van a encontrar los instaladores de R y RStudio Desktop para Windows, Mac, entre otros: <https://posit.co/download/rstudio-desktop/#download>
+
+-   Es necesario que se descarguen ambos para seguir el curso: Primero R y luego RStudio.
+
+-   Tutorial paso a paso: <https://rpubs.com/agscl/tutorial>
+. . .
+
+Todo el proceso es muy intuitivo y simple, pero también lo repasaremos en clase.
+
+::: notes
+
+a
+
+:::
+
+## Paso 1: [Descargar R y RStudio]{.flow} {.r-stretch}
+
+-   El enlace anterior les llevará a esta página. Aquí elijan la opción **"DOWNLOAD AND INSTALL R"**...
+
+![](./images/paso1.jpg)
+
+## 
+
+-   Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
+
+![](./images/paso1-b.jpg)
+
+::: aside
+Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archive Network](https://cran.r-project.org/)
+::: 
+
+##
+
+-   Por ejemplo, para windows, cliqueen aquí:
+
+![](./images/paso1-d.jpg)
+
+-   Una vez descargado, siguen los pasos del instalador por *default* en sus computadoras.
+
+## Paso 2: Descargar RStudio
+
+-   En este caso, escoger la opción 2 para descargar el instalador
+
+
+![](./images/paso2.jpg)
+
+-   Una vez descargado siguen los pasos del instalador y listo
+
+## Paso 3: Corroborar la instalación
+
+-   Busquen los íconos de R y de RStudio en su escritorio. Si no están allí, escriban el nombre en el buscador de sus sistemas y creen un acceso directo de cada uno en sus escritorios. 
+
+
+![](./images/R_RStudiologo.jpg)
+
+-   Haremos clic en el segundo logo (RStudio), luego debería aparecerles una pantalla como la que viene...
+
+##
+
+- RStudio:
+
+![](./images/paso3.jpg)
+
+## Ok, pero ¿por qué hemos descargado ambos entornos?
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+![](./images/R-basic.jpg)
+:::
+
+::: {.column width="70%"}
+
+![](./images/Rstudio.jpg)
+:::
+
+::::
+
+- R es un lenguaje y un entorno de programación para el análisis estadístico. 
+
+-   Rstudio es un **[IDE](https://posit.co/products/open-source/rstudio/)**: un interfaz amigable y poderoso para trabajar con R.
+
+## Paso 4: Practiquemos
+
+-   Una vez instalado ambos entornos, ya podemos proseguir con los paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en la pestaña "Console" (panel inferior izquierdo) y presionen la tecla **"Enter"**:
+
+```` markdown
+install.packages("tidyverse”)
+````
+
+![](./images/paso4.jpg)
+
+## 
+-   Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.
+
+-    Para comprobar que esto sucedió, debemos cargar el paquete "tidyverse". Para ello, copien  en **"`Console`"** y presionen **"`Enter`"** el siguiente código:
+
+```` markdown
+library(tidyverse)
+````
+
+## Gracias por tu atención!
+
+¡Espero que la presentación les anime a explorar R y sus diversos usos!
+
+-   Revisen [Quarto documentation](https://quarto.org/).
+-   Lean un poco de [Awesome Quarto](https://github.com/mcanouil/awesome-quarto).
+
+##
+![](images/politai2.png){fig-align="center"}
+
+## Referencias
+
+-   [Quarto questions](https://occasionaldivergences.com/posts/quarto-questions/) by Marc Dotson
+-   Velásquez, I. (2022). [Introduction to Quarto](https://github.com/ivelasq/2022-10-27_intro-to-quarto)
+-   Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. " O'Reilly Media, Inc." En [First Edition](https://r4ds.had.co.nz/) y [Second Edition](https://r4ds.hadley.nz/) 
+-   Fernández, M., I. (2020). Ventajas de R como herramienta para el Análisis y Visualización de datos en Ciencias Sociales. Revista Científica de la UCSA, 7(2), 97-111. Epub 00 de agosto de 2020. <https://doi.org/10.18004/ucsa/2409-8752/2020.007.02.097>
+
+::: aside
+*El contenido de este curso se ofrece bajo una licencia [Dominio público](https://en.wikipedia.org/wiki/Public_domain). El contenido de este curso puede considerarse bajo esta licencia a menos que se notifique de manera diferente.* 
+:::
+
+## ¿QUÉ ES EL P-VALUE?🎲 {.r-stretch}
+
+{{< youtube ibmjzFv4K1Y >}}
+
+::: aside
+Source: [Data política](https://www.youtube.com/@Datapolitica) en YouTube
+:::
