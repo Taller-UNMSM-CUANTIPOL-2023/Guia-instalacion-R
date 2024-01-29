@@ -1,5 +1,5 @@
 ---
-title: "**Taller de Estadística - POLITAI**"
+title: "**<b style = 'color : #E18B2A;'>Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM</b>**"
 author:  Joel Ccallocunto
 subtitle: Guía de instalación de R y RStudio
 date: 11/21/2023
@@ -8,7 +8,7 @@ format:
     standalone: true
     theme: night
     progress: true
-    footer: <[POLITAI](https://taller-politai-2023-2.github.io/Guia-instalacion-R/)>
+    footer: "[CUANTIPOL](https://taller-unmsm-cuantipol-2023.github.io/Guia-instalacion-R/)"
 incremental: false
 highlight-style: a11y
 ---
@@ -133,7 +133,7 @@ library(tidyverse)
 ##
 
 ```{r,echo=FALSE, out.width="65%",fig.align="center"}
-knitr::include_graphics("./images/politai.jpg") 
+knitr::include_graphics("./images/logoCUANTIPOL.jpg") 
 ```
 
 
