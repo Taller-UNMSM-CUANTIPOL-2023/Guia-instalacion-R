@@ -1,5 +1,7 @@
 # [Guía de instalación R y RStudio](https://taller-politai-2023-2.github.io/Guia-instalacion-R/)
 
+Taller-UNMSM-CUANTIPOL-2023
+
 Instalemos R y Rstudio desde Posit para el Taller de Investigación: Política Cuantitativa “CUANTIPOL” - UNMSM
 
 -> https://taller-politai-2023-2.github.io/Guia-instalacion-R/
